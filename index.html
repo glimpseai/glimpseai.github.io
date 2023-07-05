@@ -1,0 +1,180 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+	<!-- Page Title -->
+	<title>Glimpse</title>
+
+	<!-- Compressed Styles -->
+	<link href="css/slides.min.css?41331" rel="stylesheet" type="text/css">
+
+	<!-- jQuery 3.3.1 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Compressed Scripts -->
+	<script src="js/slides.min.js?41331" type="text/javascript"></script>
+
+	<!-- Fonts and Material Icons -->
+	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
+
+</head>
+
+<body class="slides chain simplifiedMobile animated">
+
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <div class="container">
+
+      <div class="fix-10-12 toCenter margin-top-3">
+				<h1 class="ae-1 center">Glimpse Virtual Try-On Demo</h1>
+        <p class="ae-2 center"><span class="opacity-8">Select model (left) and shirt (right) to try-on.</span></p>
+      </div>
+
+      <div class="fix-12-12 margin-top-3">
+        <ul class="flex fixedSpaces later">
+          <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
+            <ul id="person" class="tabs fix-12-12 grid grid-75 masonry fixedSpaces ae-3 controller popupTrigger" data-popup-id="75-1" data-slider-id="75-1">
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-6 fadeIn selected">
+                <img src="assets/person/m2.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-3 fadeIn">
+                <img src="assets/person/m1.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-2 fadeIn">
+                <img src="assets/person/m3.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-7 fadeIn">
+                <img src="assets/person/m4.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-9 fadeIn">
+                <img src="assets/person/m5.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-5 fadeIn">
+                <img src="assets/person/m6.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-4 fadeIn">
+                <img src="assets/person/m7.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-1 fadeIn">
+                <img src="assets/person/m9.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-8 fadeIn">
+                <img src="assets/person/m8.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-10 fadeIn">
+                <img src="assets/person/m11.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-3 fadeIn">
+                <img src="assets/person/m12.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-6 fadeIn">
+                <img src="assets/person/m10.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+            </ul>
+          </li>
+          <li class="col-1-12 col-tablet-1-2 col-phone-1-1"></li>
+          <li class="col-4-12 col-tablet-1-2 col-phone-1-1 toCenter">
+            <div class="button rounded empty margin-bottom-2 noShadow popupTrigger ae-3" data-popup-id="90-2">
+              <img id="synthesized" class="wide" src="assets/result/m2_c8.png"/>
+            </div>
+          </li>
+          <li class="col-1-12 col-tablet-1-2 col-phone-1-1"></li>
+          <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
+            <ul id="cloth" class="tabs fix-12-12 grid grid-75 masonry fixedSpaces ae-3 controller popupTrigger" data-popup-id="75-2" data-slider-id="75-2">
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-6 fadeIn selected">
+                <img src="assets/cloth/c8.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-3 fadeIn">
+                <img src="assets/cloth/c2.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-2 fadeIn">
+                <img src="assets/cloth/c6.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-7 fadeIn">
+                <img src="assets/cloth/c1.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-9 fadeIn">
+                <img src="assets/cloth/c10.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-5 fadeIn">
+                <img src="assets/cloth/c3.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-4 fadeIn">
+                <img src="assets/cloth/c7.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-3 fadeIn">
+                <img src="assets/cloth/c12.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-1 fadeIn">
+                <img src="assets/cloth/c9.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-8 fadeIn">
+                <img src="assets/cloth/c11.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-6 fadeIn">
+                <img src="assets/cloth/c5.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+              <li class="col-4-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-10 fadeIn">
+                <img src="assets/cloth/c4.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/bg.jpg)"></div>
+</section>
+
+<div class="popup autoplay" data-popup-id="90-2">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-10-12">
+          <div class="clickable popupContent disableSelect">
+            <img id="synthesized_popup" src="assets/result/m2_c8.png" class="rounded" alt="Image"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  const ul_person = document.querySelector('ul#person');
+  const ul_cloth = document.querySelector('ul#cloth');
+
+  let pname = "m2";
+  let cname = "c8";
+
+  ul_person.addEventListener('click', (event) => {
+    const clickedLi = event.target;
+    // may select the same one
+    if (clickedLi.querySelector('li')) return;
+
+    // select not right on image but li
+    if (clickedLi.querySelector('img')) pname = clickedLi.querySelector('img').src.split("/").pop().split(".")[0];
+    else pname = clickedLi.src.split("/").pop().split(".")[0];
+
+    $("#synthesized").attr("src", `assets/result/${pname + '_' + cname}.png`);
+    $("#synthesized_popup").attr("src", `assets/result/${pname + '_' + cname}.png`);
+  });
+
+  ul_cloth.addEventListener('click', (event) => {
+    const clickedLi = event.target;
+    if (clickedLi.querySelector('li')) return;
+
+    if (clickedLi.querySelector('img')) cname = clickedLi.querySelector('img').src.split("/").pop().split(".")[0];
+    else cname = clickedLi.src.split("/").pop().split(".")[0];
+
+    $("#synthesized").attr("src", `assets/result/${pname + '_' + cname}.png`);
+    $("#synthesized_popup").attr("src", `assets/result/${pname + '_' + cname}.png`);
+  });
+</script>
+
+</body>
+</html>
